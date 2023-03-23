@@ -54,10 +54,11 @@ Utilisez une boucle pour afficher chaque élément du tableau dans la console
 
 let tableau = [1,2,3,4,5];
 let i =0;
-while(tableau==i){
+while(i<tableau.length){
+ console.log(tableau[i]); 
   i++;
+  
 }
-console.log(tableau);
 
 >>> Exercice 3
 Créez un tableau contenant les nombres 1, 2, 3, 4 et 5. 
