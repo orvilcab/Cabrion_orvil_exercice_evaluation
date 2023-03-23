@@ -36,3 +36,58 @@ console.log(date);
 let tableau = ['r','v','s','x','a'];
 let result = tableau.join();
 console.log(result);
+
+LES TABLEAUX
+
+ 
+
+>>> Exercice 1
+Créez un tableau contenant les noms de trois de vos amis. 
+Affichez ensuite le premier élément du tableau dans la console.
+
+let tableau = ["albert", "bertrand","jacques"];
+console.log(tableau[0]);
+
+>>> Exercice 2
+Créez un tableau contenant les nombres 1, 2, 3, 4 et 5. 
+Utilisez une boucle pour afficher chaque élément du tableau dans la console
+
+let tableau = [1,2,3,4,5];
+let i =0;
+while(tableau==i){
+  i++;
+}
+console.log(tableau);
+
+>>> Exercice 3
+Créez un tableau contenant les nombres 1, 2, 3, 4 et 5. 
+Utilisez une méthode de tableau pour ajouter le nombre 6 à la fin du tableau.
+
+let tableau = [1,2,3,4,5];
+tableau.push(6);
+console.log(tableau);
+
+>>> Exercice 4
+Créez un tableau contenant les nombres 1, 2, 3, 4 et 5. Utilisez 
+une méthode de tableau pour supprimer le dernier élément du tableau.
+
+let tableau = [1,2,3,4,5];
+tableau.pop(5);
+console.log(tableau);
+
+>>> Exercice 5
+Créez un tableau contenant les nombres 1, 2, 3, 4 et 5. Utilisez 
+une méthode de tableau pour ajouter le nombre 0 au début du tableau.
+
+let tableau = [1,2,3,4,5];
+tableau.unshift(0);
+console.log(tableau);
+
+
+>>> Exercice 6
+Créez un tableau contenant les nombres 1, 2, 3, 4 et 5. Utilisez une méthode de 
+tableau pour supprimer le premier élément du tableau.
+
+let tableau = [1,2,3,4,5];
+tableau.shift();
+console.log(tableau);
