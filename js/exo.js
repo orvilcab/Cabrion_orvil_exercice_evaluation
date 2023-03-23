@@ -33,3 +33,6 @@ let date = d.getDate()+'-'+(d.getMonth()+1)+'-'+d.getFullYear();
 console.log(date);
 
 // 9 Créez une variable "tableau2" qui contient un tableau de chaînes de caractères et utilisez la méthode "join()" pour les fusionner en une seule chaîne de caractères séparée par des virgules.
+let tableau = ['r','v','s','x','a'];
+let result = tableau.join();
+console.log(result);
